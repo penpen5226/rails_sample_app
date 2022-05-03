@@ -36,6 +36,7 @@ class ListsController < ApplicationController
     redirect_to '/lists'  # 投稿一覧画面へリダイレクト
   end
 
+
   private
   # ストロングパラメータ
   def list_params
